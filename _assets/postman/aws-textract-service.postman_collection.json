@@ -1,0 +1,89 @@
+{
+	"info": {
+		"_postman_id": "288495fe-5581-4fd5-b76d-c5c4b08a26b1",
+		"name": "aws-textract-service",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "3024621"
+	},
+	"item": [
+		{
+			"name": "extract-text",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "file",
+					"file": {
+						"src": "/C:/example.png"
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/v1/images/image-to-text",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"images",
+						"image-to-text"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "200 OK",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "file",
+							"file": {
+								"src": "/C:/example.png"
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/v1/images/image-to-text",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"v1",
+								"images",
+								"image-to-text"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 29 Aug 2024 18:56:06 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"blocks\": [\n        {\n            \"geometry\": {\n                \"width\": 0.16109064,\n                \"height\": 0.014972738,\n                \"top\": 0.075842045,\n                \"left\": 0.42496812\n            },\n            \"text\": \"BAHIA vs.\"\n        },\n        {\n            \"geometry\": {\n                \"width\": 0.12637606,\n                \"height\": 0.050923493,\n                \"top\": 0.08565559,\n                \"left\": 0.13981625\n            },\n            \"text\": \"SECURITY A CLUBE\"\n        },\n        {\n            \"geometry\": {\n                \"width\": 0.2284285,\n                \"height\": 0.015272373,\n                \"top\": 0.10167631,\n                \"left\": 0.39053527\n            },\n            \"text\": \"FLAMENGO\"\n        },\n        {\n            \"geometry\": {\n                \"width\": 0.13965105,\n                \"height\": 0.009425301,\n                \"top\": 0.12505433,\n                \"left\": 0.4348309\n            },\n            \"text\": \"Copa do Brasil\"\n        },\n        {\n            \"geometry\": {\n                \"width\": 0.039024934,\n                \"height\": 0.007853751,\n                \"top\": 0.14049335,\n                \"left\": 0.19159727\n            },\n            \"text\": \"1931\"\n        },\n        {\n            \"geometry\": {\n                \"width\": 0.15650369,\n                \"height\": 0.008124986,\n                \"top\": 0.13805228,\n                \"left\": 0.42638716\n            },\n            \"text\": \"Quartas de final\"\n        },\n        {\n            \"geometry\": {\n                \"width\": 0.3349447,\n                \"height\": 0.0099164,\n                \"top\": 0.15075247,\n                \"left\": 0.3363956\n            },\n            \"text\": \"Casa de Apostas Arena Fonte Novo\"\n        },\n        {\n            \"geometry\": {\n                \"width\": 0.0112283705,\n                \"height\": 0.005106954,\n                \"top\": 0.18242082,\n                \"left\": 0.67832816\n            },\n            \"text\": \"D\"\n        },\n        {\n            \"geometry\": {\n                \"width\": 0.014255339,\n                \"height\": 0.0055351425,\n                \"top\": 0.18231238,\n                \"left\": 0.6992911\n            },\n            \"text\": \"X\"\n        },\n        {\n            \"geometry\": {\n                \"width\": 0.0437362,\n                \"height\": 0.005936089,\n                \"top\": 0.18824969,\n                \"left\": 0.318203\n            },\n            \"text\": \"original\"\n        },\n        {\n            \"geometry\": {\n                \"width\": 0.14888246,\n                \"height\": 0.005984461,\n                \"top\": 0.18924534,\n                \"left\": 0.42615858\n            },\n            \"text\": \"E MUDOU A HISTÓRIA\"\n        },\n        {\n            \"geometry\": {\n                \"width\": 0.07531584,\n                \"height\": 0.0071960413,\n                \"top\": 0.19438091,\n                \"left\": 0.3028262\n            },\n            \"text\": \"globoplay\"\n        },\n        {\n            \"geometry\": {\n                \"width\": 0.03454123,\n                \"height\": 0.0047622877,\n                \"top\": 0.19207105,\n                \"left\": 0.63439155\n            },\n            \"text\": \"assing\"\n        },\n        {\n            \"geometry\": {\n                \"width\": 0.06367234,\n                \"height\": 0.0053786845,\n                \"top\": 0.1964047,\n                \"left\": 0.47054082\n            },\n            \"text\": \"DO FUNK\"\n        },\n        {\n            \"geometry\": {\n                \"width\": 0.0065592425,\n                \"height\": 0.0041072476,\n                \"top\": 0.20433684,\n                \"left\": 0.38369757\n            },\n            \"text\": \"5\"\n        },\n        {\n            \"geometry\": {\n                \"width\": 0.0651958,\n                \"height\": 0.005934165,\n                \"top\": 0.23512529,\n                \"left\": 0.47142237\n            },\n            \"text\": \"O DUELO\"\n        },\n        {\n            \"geometry\": {\n                \"width\": 0.23551118,\n                \"height\": 0.010459619,\n                \"top\": 0.25767305,\n                \"left\": 0.15193312\n            },\n            \"text\": \"Jogo Bahia e Flamengo\"\n        },\n        {\n            \"geometry\": {\n                \"width\": 0.6712714,\n                \"height\": 0.011316583,\n                \"top\": 0.27361634,\n                \"left\": 0.15314315\n            },\n            \"text\": \"Quem será O classificado do jogo? o Bahia enfrenta o Flamengo nesta quarta-\"\n        },\n        {\n            \"geometry\": {\n                \"width\": 0.6835405,\n                \"height\": 0.0108860815,\n                \"top\": 0.28552046,\n                \"left\": 0.15256783\n            },\n            \"text\": \"feira em busca da classificação para a próxima fase em Copa do Brasil. Os times\"\n        },\n        {\n            \"geometry\": {\n                \"width\": 0.64869535,\n                \"height\": 0.010678401,\n                \"top\": 0.29787254,\n                \"left\": 0.15229847\n            },\n            \"text\": \"vão a campo no gramado do Casa de Apostas Arena Fonte Nova a partir de\"\n        },\n        {\n            \"geometry\": {\n                \"width\": 0.061212793,\n                \"height\": 0.00723013,\n                \"top\": 0.31081843,\n                \"left\": 0.15276118\n            },\n            \"text\": \"21:30h.\"\n        },\n        {\n            \"geometry\": {\n                \"width\": 0.6967111,\n                \"height\": 0.011160103,\n                \"top\": 0.32619655,\n                \"left\": 0.15268661\n            },\n            \"text\": \"O trio de arbitragem será composto pelo árbitro principal Raphael Claus, e pelos\"\n        },\n        {\n            \"geometry\": {\n                \"width\": 0.49870822,\n                \"height\": 0.008962118,\n                \"top\": 0.33852282,\n                \"left\": 0.15256107\n            },\n            \"text\": \"assistentes Danilo Ricardo Simon Manis e Neuza lnes Back\"\n        },\n        {\n            \"geometry\": {\n                \"width\": 0.6609247,\n                \"height\": 0.0103672845,\n                \"top\": 0.35514486,\n                \"left\": 0.15222631\n            },\n            \"text\": \"Acompanhe tudo sobre O jogo e fique por dentro dos melhores lances desse\"\n        },\n        {\n            \"geometry\": {\n                \"width\": 0.08719903,\n                \"height\": 0.00704844,\n                \"top\": 0.36818478,\n                \"left\": 0.1533106\n            },\n            \"text\": \"confronto.\"\n        },\n        {\n            \"geometry\": {\n                \"width\": 0.14950503,\n                \"height\": 0.0062086456,\n                \"top\": 0.40670896,\n                \"left\": 0.42974618\n            },\n            \"text\": \"PRA FICAR DE OLHO\"\n        },\n        {\n            \"geometry\": {\n                \"width\": 0.39911893,\n                \"height\": 0.009312362,\n                \"top\": 0.42952028,\n                \"left\": 0.15262312\n            },\n            \"text\": \"Jogo aconteca na Arena Fonte Nova. às 21h30.\"\n        },\n        {\n            \"geometry\": {\n                \"width\": 0.3751924,\n                \"height\": 0.014918186,\n                \"top\": 0.4814333,\n                \"left\": 0.25099117\n            },\n            \"text\": \"MUDANÇAS NO TRÂNSITO\"\n        },\n        {\n            \"geometry\": {\n                \"width\": 0.4495659,\n                \"height\": 0.013915572,\n                \"top\": 0.5087845,\n                \"left\": 0.25666973\n            },\n            \"text\": \"INTERDIÇÃO DA LADEIRA DA FONTE:\"\n        },\n        {\n            \"geometry\": {\n                \"width\": 0.21937613,\n                \"height\": 0.009461583,\n                \"top\": 0.5263114,\n                \"left\": 0.2547185\n            },\n            \"text\": \"A PARTIR DAS 18H\"\n        },\n        {\n            \"geometry\": {\n                \"width\": 0.3999139,\n                \"height\": 0.012963093,\n                \"top\": 0.5490126,\n                \"left\": 0.2556401\n            },\n            \"text\": \"INTERDIÇÃO DA AV. PRESIDENTE\"\n        },\n        {\n            \"geometry\": {\n                \"width\": 0.37923515,\n                \"height\": 0.0114847,\n                \"top\": 0.56366956,\n                \"left\": 0.25518122\n            },\n            \"text\": \"COSTA E SILVA, SENTIDO LAPA:\"\n        },\n        {\n            \"geometry\": {\n                \"width\": 0.21888915,\n                \"height\": 0.0093045235,\n                \"top\": 0.5791189,\n                \"left\": 0.25501338\n            },\n            \"text\": \"A PARTIR DAS 18H\"\n        },\n        {\n            \"geometry\": {\n                \"width\": 0.041303746,\n                \"height\": 0.0065003205,\n                \"top\": 0.6014068,\n                \"left\": 0.23843704\n            },\n            \"text\": \"1 min\"\n        },\n        {\n            \"geometry\": {\n                \"width\": 0.118421145,\n                \"height\": 0.0061333035,\n                \"top\": 0.6504281,\n                \"left\": 0.4451043\n            },\n            \"text\": \"COMO CHEGAM\"\n        },\n        {\n            \"geometry\": {\n                \"width\": 0.049903695,\n                \"height\": 0.021465968,\n                \"top\": 0.678483,\n                \"left\": 0.16652621\n            },\n            \"text\": \"@ CL I BANK\"\n        },\n        {\n            \"geometry\": {\n                \"width\": 0.10677452,\n                \"height\": 0.0070762336,\n                \"top\": 0.6797773,\n                \"left\": 0.4508028\n            },\n            \"text\": \"Números em\"\n        },\n        {\n            \"geometry\": {\n                \"width\": 0.0149846915,\n                \"height\": 0.005956734,\n                \"top\": 0.6785225,\n                \"left\": 0.7992134\n            },\n            \"text\": \"GE\"\n        },\n        {\n            \"geometry\": {\n                \"width\": 0.17590626,\n                \"height\": 0.009159479,\n                \"top\": 0.6913084,\n                \"left\": 0.4164359\n            },\n            \"text\": \"Copa do Brasil 2024\"\n        },\n        {\n            \"geometry\": {\n                \"width\": 0.024594374,\n                \"height\": 0.0071618403,\n                \"top\": 0.7190015,\n                \"left\": 0.1616162\n            },\n            \"text\": \"7.5\"\n        },\n        {\n            \"geometry\": {\n                \"width\": 0.17181408,\n                \"height\": 0.0094095515,\n                \"top\": 0.718117,\n                \"left\": 0.41879115\n            },\n            \"text\": \"Finalizações (Média)\"\n        },\n        {\n            \"geometry\": {\n                \"width\": 0.0094689885,\n                \"height\": 0.006884196,\n                \"top\": 0.7183733,\n                \"left\": 0.83789784\n            },\n            \"text\": \"7\"\n        },\n        {\n            \"geometry\": {\n                \"width\": 0.024947882,\n                \"height\": 0.0073673963,\n                \"top\": 0.74901634,\n                \"left\": 0.16050848\n            },\n            \"text\": \"4.8\"\n        },\n        {\n            \"geometry\": {\n                \"width\": 0.15896545,\n                \"height\": 0.00863001,\n                \"top\": 0.74856156,\n                \"left\": 0.4247069\n            },\n            \"text\": \"Escanteios (Média)\"\n        },\n        {\n            \"geometry\": {\n                \"width\": 0.010355857,\n                \"height\": 0.007475765,\n                \"top\": 0.7488678,\n                \"left\": 0.8377024\n            },\n            \"text\": \"6\"\n        },\n        {\n            \"geometry\": {\n                \"width\": 0.024226088,\n                \"height\": 0.0074833077,\n                \"top\": 0.77927893,\n                \"left\": 0.16075037\n            },\n            \"text\": \"2.7\"\n        },\n        {\n            \"geometry\": {\n                \"width\": 0.21807043,\n                \"height\": 0.0087768845,\n                \"top\": 0.7788746,\n                \"left\": 0.3955568\n            },\n            \"text\": \"Cartões amarelos (Média)\"\n        },\n        {\n            \"geometry\": {\n                \"width\": 0.024007473,\n                \"height\": 0.007604798,\n                \"top\": 0.7793441,\n                \"left\": 0.82408774\n            },\n            \"text\": \"1,8\"\n        },\n        {\n            \"geometry\": {\n                \"width\": 0.006388897,\n                \"height\": 0.0066329907,\n                \"top\": 0.8098093,\n                \"left\": 0.1619822\n            },\n            \"text\": \"1\"\n        },\n        {\n            \"geometry\": {\n                \"width\": 0.08477295,\n                \"height\": 0.008763488,\n                \"top\": 0.8095233,\n                \"left\": 0.4623718\n            },\n            \"text\": \"Expulsões\"\n        },\n        {\n            \"geometry\": {\n                \"width\": 0.009570604,\n                \"height\": 0.0074447943,\n                \"top\": 0.8093605,\n                \"left\": 0.83829474\n            },\n            \"text\": \"0\"\n        },\n        {\n            \"geometry\": {\n                \"width\": 0.1373375,\n                \"height\": 0.01331807,\n                \"top\": 0.8563408,\n                \"left\": 0.5257532\n            },\n            \"text\": \"globoplay\"\n        }\n    ]\n}"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,10 @@
+config:
+  aws:
+    region: us-east-1
+    access-key: ${AWS_ACCESS_KEY}
+    secret-key: ${AWS_SECRET_KEY}
+
+logging:
+  level:
+    org.springframework: DEBUG
+    org.springdoc: DEBUG
